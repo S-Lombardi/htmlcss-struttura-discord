@@ -56,7 +56,11 @@ header > .container {
 }
 /* FINE JUMBOTRON */
 
-/* SEZIONE CENTRALE(COL. BLU,ROSA)*/
+/* SEZIONE CENTRALE*/
+
+.background-color:nth-child(odd){
+    background-color: gray;
+}
 /* Prima riga */
 .col-65{
     width: 65%;
@@ -68,7 +72,19 @@ header > .container {
     height: 300px;
     background-color: rgb(255, 208, 220);
 }
-/* Seconda Riga */
+/* Seconda riga */
 .invert-order{
     order:-1;
 }
+/* Terza riga */
+
+
+/* Quarta riga */
+.col-100{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(28, 97, 51);
+}
+
+
+
