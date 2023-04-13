@@ -33,13 +33,31 @@ header > .container {
     background-color: rgb(226, 191, 93);
 }
 
+header .col-60{
+    text-align: center;
+    line-height: 30px;
+}
+ 
+header .col-20{
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+header .col-20:last-child{
+    text-align: end;
+    padding-right: 10px;
+}
+
+
 .col-20{
     height: 30px;
     width: 20%;
+    border: 1px dashed black;
 }
 .col-60{
     height: 30px;
     width: 60%;
+    border: 1px dashed black;
 }
 /* FINE HEADER */
 
@@ -52,6 +70,7 @@ header > .container {
     width: 70%;
     height: 250px;
     background-color: rgb(210, 75, 223);
+    border: 1px dashed black;
 }
 /* FINE JUMBOTRON */
 
@@ -65,11 +84,13 @@ header > .container {
     width: 65%;
     height: 300px;
     background-color: rgb(66, 79, 194);
+    border: 1px dashed black;
 }
 .col-35{
     width: 35%;
     height: 300px;
     background-color: rgb(255, 208, 220);
+    border: 1px dashed black;
 }
 /* Seconda riga */
 .invert-order{
@@ -81,6 +102,7 @@ header > .container {
     width: 100%;
     height: 500px;
     background-color: rgb(28, 97, 51);
+    border: 1px dashed black;
 }
 
 /* Quinta riga */
@@ -88,6 +110,7 @@ header > .container {
     width: 40%;
     height: 300px;
     background-color: rgb(211, 132, 15);
+    border: 1px dashed black;
 }
 .col-15{
     width: 15%;
@@ -111,6 +134,7 @@ footer .col-100{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border: none;
 }
 
 footer .container{
@@ -123,7 +147,8 @@ footer{
 }
 
 footer input{
-    background-color: rgb(211, 132, 15);;
+    background-color: rgb(211, 132, 15);
+    border: 1px dashed black;
 }
 
 
